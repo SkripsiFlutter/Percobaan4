@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_bmi/screen/bmi_screen.dart';
+import 'package:flutter_bmi/screen/splash_screen.dart';
+// import 'package:flutter_bmi/screen/bmi_screen.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 import '../widget/button_widget.dart';
@@ -35,7 +36,7 @@ class MenuScreen extends StatelessWidget {
                 onClicked: () {
                   Navigator.of(context)
                       .push(MaterialPageRoute(builder: (context) {
-                    return BmiScreen();
+                    return SplashScreen();
                   }));
                 }),
             SizedBox(height: 20.0),
@@ -44,7 +45,7 @@ class MenuScreen extends StatelessWidget {
                 onClicked: () {
                   Navigator.of(context)
                       .push(MaterialPageRoute(builder: (context) {
-                    return BmiScreen();
+                    return SplashScreen();
                   }));
                 }),
             SizedBox(height: 20.0),
@@ -53,7 +54,7 @@ class MenuScreen extends StatelessWidget {
                 onClicked: () {
                   Navigator.of(context)
                       .push(MaterialPageRoute(builder: (context) {
-                    return BmiScreen();
+                    return SplashScreen();
                   }));
                 }),
             SizedBox(height: 20.0),
@@ -62,7 +63,7 @@ class MenuScreen extends StatelessWidget {
                 onClicked: () {
                   Navigator.of(context)
                       .push(MaterialPageRoute(builder: (context) {
-                    return BmiScreen();
+                    return SplashScreen();
                   }));
                 }),
             SizedBox(height: 80.0),
