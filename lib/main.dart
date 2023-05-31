@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bmi/constants.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-import 'screen/splash_screen.dart';
+import 'screen/splash_screen.dar';
 import 'splash_screen.dart';
 
 void main() {
